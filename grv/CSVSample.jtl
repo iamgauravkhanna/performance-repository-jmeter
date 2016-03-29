@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="269" lt="0" ts="1351671724751" s="true" lb="Login as u1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15"/>
+<sample t="285" lt="0" ts="1351671725090" s="true" lb="Action = none" rc="200" rm="OK" tn="Thread Group 1-1" dt="" by="0"/>
+<sample t="101" lt="0" ts="1351671725673" s="true" lb="Action a" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12"/>
+<sample t="218" lt="0" ts="1351671725788" s="true" lb="Action b" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12"/>
+<sample t="194" lt="0" ts="1351671726019" s="true" lb="Action c" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12"/>
+<sample t="146" lt="0" ts="1351671726227" s="true" lb="Action d" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12"/>
+<sample t="307" lt="0" ts="1351671726386" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13"/>
+<sample t="119" lt="0" ts="1351671726708" s="true" lb="Action = &lt;EOF&gt;" rc="200" rm="OK" tn="Thread Group 1-1" dt="" by="0"/>
+<sample t="266" lt="0" ts="1351671726855" s="true" lb="Login as u2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15"/>
+<sample t="306" lt="0" ts="1351671727150" s="true" lb="Action = none" rc="200" rm="OK" tn="Thread Group 1-1" dt="" by="0"/>
+<sample t="138" lt="0" ts="1351671727492" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="13"/>
+<sample t="309" lt="0" ts="1351671727663" s="true" lb="Action = &lt;EOF&gt;" rc="200" rm="OK" tn="Thread Group 1-1" dt="" by="0"/>
+
+</testResults>

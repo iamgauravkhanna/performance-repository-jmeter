@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1380795930000</longProp>
+        <longProp name="ThreadGroup.end_time">1380795930000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="home" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">qamasterz.blogspot.in</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.implementation">Java</stringProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <sample²¬EÃÄŒÜËÖîB`†2Œí|f¾ ãQGm%®î$×€ð¢,£”X¿<ä¢ßýë'A°èäçòÃ·öYOÈ¸5Â`¿¥êÊ¬´wÎâ]¸^U‡£–aîÚ$Á&›úA»Ã»ÐGq*ÊÆ¬Â.îÚAÑêBúì8ÔWŒÛÂðgkm·q+:šI”r¤Úð‡.<ðâWF-†+ö;¹íƒR•K,*¡pp%Œa¢ñ˜m‹oa´œ6ÅþÎà_’œGúä†¶µLÛQ¸Û«aÂòQ¦;ë§v”nªw\ÜQÉÜä£ žðÛe1‚CƒŒ[½¸—yIÌBxÛ•`€åk›ƒP×ÍQ¹}¶YÈPu3tmÃWŸ~õþ—‹aµr¯›m}\gêî Í8ãŽÜa÷ø!JQ¹÷ë`nLãm–r^lí ®u¶Ë=–£6Ên²ß¬n3¡_è6Å»¯VÒ3pnBgg½:/Rš3ljšßwpÔA™½³e”üžèÜ
+ù¨öÐ7§tÀÜ„´ÓËÑ«‘aÒð~aûqrð6œÖ½¦QÒ@#XmÞt$87ln€«ÃØfˆœ”eÚ½ÂXLPn0ÕÔqj˜,5€ÕÖ=¬«/üAÑÂõæÉpÕÁœ´•¬§»3ï‡FËÇ¾m¸ÚIŠ|”g·„;'þ(àIÌ áx1a¬îí¶ôŒÜ«‹±swžBKËFmÝ³râô‘¹W‡yùÂlÛZæàÌ{óJ²¿ùÀ^TM»¼øí!Á©	mÜS¶…e·Ü	9(Â±^àÚI­.2^mÞ½©C¸t7»ÓT_JQœ+Ó»ÃÅÀ ¼J‡*3ÎÎ’

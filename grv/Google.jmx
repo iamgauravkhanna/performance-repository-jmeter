@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="17110" lt="16701" ts="1315982028792" s="true" lb="Home" rc="200" rm="OK" tn="My Users 1-1" dt="text" by="11185">
+  <httpSample t="16701" lt="16701" ts="1315982028792" s="true" lb="http://www.google.com/" rc="302" rm="Found" tn="" dt="text" by="604"/>
+  <httpSample t="407" lt="358" ts="1315982045495" s="true" lb="http://www.google.co.in/" rc="200" rm="OK" tn="My Users 1-1" dt="text" by="11795"/>
+</httpSample>
+
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+<httpSample t="57" lt="0" ts="1315982436282" s="false" lb="About Us" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: www.stiebel.com.au/company-profile.php" tn="My Users 1-1" dt="text" by="1404"/>
+
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Users 1-1" dt="text" by="1087"/>
+<httpSample t="1" lt="0" ts="1315982470671" s="false" lb="About Us" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: www.stiebel.com.au/company-profile.php" tn="My Users 1-1" dt="text" by="1404"/>
+
+<httpSample t="0" lt="0" ts="0" s="false" lb="Error: " rc="Non HTTP response code: java.lang.IllegalArgumentException" rm="Non HTTP response message: URI can&apos;t be null." tn="My Thread 1-1" dt="text" by="1087"/>
+<httpSample t="9" lt="0" ts="1315983787904" s="false" lb="About Us" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: www.stiebel.com.au/company-profile.php" tn="My Thread 1-1" dt="text" by="1404"/>
+
+<httpSample t="0" lt="0" ts="1315983818018" s="false" lb="Home" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: www.stiebel.com.au/" tn="My Thread 1-1" dt="text" by="1385"/>
+<httpSample t="1" lt="0" ts="1315983818021" s="false" lb="About Us" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: www.stiebel.com.au/company-profile.php" tn="My Thread 1-1" dt="text" by="1404"/>
+
+</testResults>
